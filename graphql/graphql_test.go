@@ -27,6 +27,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/common"
 	"github.com/billyadelphia/op-geth/consensus"
 	"github.com/billyadelphia/op-geth/consensus/beacon"
@@ -34,7 +35,6 @@ import (
 	"github.com/billyadelphia/op-geth/core"
 	"github.com/billyadelphia/op-geth/core/types"
 	"github.com/billyadelphia/op-geth/core/vm"
-	"github.com/billyadelphia/op-geth/crypto"
 	"github.com/billyadelphia/op-geth/eth"
 	"github.com/billyadelphia/op-geth/eth/ethconfig"
 	"github.com/billyadelphia/op-geth/eth/filters"

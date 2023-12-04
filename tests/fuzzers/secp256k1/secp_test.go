@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/billyadelphia/op-geth/crypto/secp256k1"
+	"github.com/billyadelphia/go-ethereum/crypto/secp256k1"
 	"github.com/btcsuite/btcd/btcec/v2"
 )
 

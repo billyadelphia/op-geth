@@ -29,11 +29,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/ethereum/go-ethereum"
 	"github.com/holiman/uint256"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/exp/slices"
 
-	"github.com/billyadelphia/op-geth"
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/accounts"
 	"github.com/billyadelphia/op-geth/common"
 	"github.com/billyadelphia/op-geth/common/hexutil"
@@ -46,7 +47,6 @@ import (
 	"github.com/billyadelphia/op-geth/core/state"
 	"github.com/billyadelphia/op-geth/core/types"
 	"github.com/billyadelphia/op-geth/core/vm"
-	"github.com/billyadelphia/op-geth/crypto"
 	"github.com/billyadelphia/op-geth/ethdb"
 	"github.com/billyadelphia/op-geth/event"
 	"github.com/billyadelphia/op-geth/internal/blocktest"

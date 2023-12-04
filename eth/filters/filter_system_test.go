@@ -27,19 +27,19 @@ import (
 	"testing"
 	"time"
 
-	"github.com/billyadelphia/op-geth"
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/common"
 	"github.com/billyadelphia/op-geth/consensus/ethash"
 	"github.com/billyadelphia/op-geth/core"
 	"github.com/billyadelphia/op-geth/core/bloombits"
 	"github.com/billyadelphia/op-geth/core/rawdb"
 	"github.com/billyadelphia/op-geth/core/types"
-	"github.com/billyadelphia/op-geth/crypto"
 	"github.com/billyadelphia/op-geth/ethdb"
 	"github.com/billyadelphia/op-geth/event"
 	"github.com/billyadelphia/op-geth/internal/ethapi"
 	"github.com/billyadelphia/op-geth/params"
 	"github.com/billyadelphia/op-geth/rpc"
+	"github.com/ethereum/go-ethereum"
 )
 
 type testBackend struct {

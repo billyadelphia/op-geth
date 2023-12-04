@@ -25,6 +25,7 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/common"
 	"github.com/billyadelphia/op-geth/common/hexutil"
 	"github.com/billyadelphia/op-geth/common/math"
@@ -34,7 +35,6 @@ import (
 	"github.com/billyadelphia/op-geth/core/state/snapshot"
 	"github.com/billyadelphia/op-geth/core/types"
 	"github.com/billyadelphia/op-geth/core/vm"
-	"github.com/billyadelphia/op-geth/crypto"
 	"github.com/billyadelphia/op-geth/ethdb"
 	"github.com/billyadelphia/op-geth/params"
 	"github.com/billyadelphia/op-geth/rlp"

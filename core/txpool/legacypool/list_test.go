@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"testing"
 
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/core/types"
-	"github.com/billyadelphia/op-geth/crypto"
 )
 
 // Tests that transactions can be added to strict lists and list contents and

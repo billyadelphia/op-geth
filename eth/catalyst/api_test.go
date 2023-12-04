@@ -28,6 +28,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/billyadelphia/go-ethereum/crypto"
+	"github.com/billyadelphia/go-ethereum/crypto/kzg4844"
 	"github.com/billyadelphia/op-geth/beacon/engine"
 	"github.com/billyadelphia/op-geth/common"
 	"github.com/billyadelphia/op-geth/common/hexutil"
@@ -36,8 +38,6 @@ import (
 	"github.com/billyadelphia/op-geth/consensus/ethash"
 	"github.com/billyadelphia/op-geth/core"
 	"github.com/billyadelphia/op-geth/core/types"
-	"github.com/billyadelphia/op-geth/crypto"
-	"github.com/billyadelphia/op-geth/crypto/kzg4844"
 	"github.com/billyadelphia/op-geth/eth"
 	"github.com/billyadelphia/op-geth/eth/downloader"
 	"github.com/billyadelphia/op-geth/eth/ethconfig"

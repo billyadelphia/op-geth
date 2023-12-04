@@ -27,14 +27,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/billyadelphia/op-geth"
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/accounts/abi"
 	"github.com/billyadelphia/op-geth/accounts/abi/bind"
 	"github.com/billyadelphia/op-geth/common"
 	"github.com/billyadelphia/op-geth/core"
 	"github.com/billyadelphia/op-geth/core/types"
-	"github.com/billyadelphia/op-geth/crypto"
 	"github.com/billyadelphia/op-geth/params"
+	"github.com/ethereum/go-ethereum"
 )
 
 func TestSimulatedBackend(t *testing.T) {

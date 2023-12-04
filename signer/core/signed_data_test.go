@@ -27,11 +27,11 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/accounts/keystore"
 	"github.com/billyadelphia/op-geth/common"
 	"github.com/billyadelphia/op-geth/common/hexutil"
 	"github.com/billyadelphia/op-geth/common/math"
-	"github.com/billyadelphia/op-geth/crypto"
 	"github.com/billyadelphia/op-geth/signer/core"
 	"github.com/billyadelphia/op-geth/signer/core/apitypes"
 )

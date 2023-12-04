@@ -24,10 +24,10 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/accounts/abi/bind"
 	"github.com/billyadelphia/op-geth/cmd/utils"
 	"github.com/billyadelphia/op-geth/common/compiler"
-	"github.com/billyadelphia/op-geth/crypto"
 	"github.com/billyadelphia/op-geth/internal/flags"
 	"github.com/billyadelphia/op-geth/log"
 	"github.com/urfave/cli/v2"

@@ -24,9 +24,9 @@ import (
 	mrand "math/rand"
 	"testing"
 
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/common"
 	"github.com/billyadelphia/op-geth/core/rawdb"
-	"github.com/billyadelphia/op-geth/crypto"
 	"github.com/billyadelphia/op-geth/ethdb/memorydb"
 	"golang.org/x/exp/slices"
 )

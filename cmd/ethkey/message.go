@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/accounts"
 	"github.com/billyadelphia/op-geth/accounts/keystore"
 	"github.com/billyadelphia/op-geth/cmd/utils"
 	"github.com/billyadelphia/op-geth/common"
-	"github.com/billyadelphia/op-geth/crypto"
 	"github.com/urfave/cli/v2"
 )
 

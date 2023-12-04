@@ -23,6 +23,7 @@ import (
 	"os"
 	"time"
 
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/cmd/utils"
 	"github.com/billyadelphia/op-geth/common"
 	"github.com/billyadelphia/op-geth/core/rawdb"
@@ -30,7 +31,6 @@ import (
 	"github.com/billyadelphia/op-geth/core/state/pruner"
 	"github.com/billyadelphia/op-geth/core/state/snapshot"
 	"github.com/billyadelphia/op-geth/core/types"
-	"github.com/billyadelphia/op-geth/crypto"
 	"github.com/billyadelphia/op-geth/internal/flags"
 	"github.com/billyadelphia/op-geth/log"
 	"github.com/billyadelphia/op-geth/rlp"

@@ -23,8 +23,8 @@ import (
 	"io"
 	"math/big"
 
+	"github.com/billyadelphia/go-ethereum/crypto/bls12381"
 	"github.com/billyadelphia/op-geth/common"
-	"github.com/billyadelphia/op-geth/crypto/bls12381"
 	"github.com/consensys/gnark-crypto/ecc"
 	gnark "github.com/consensys/gnark-crypto/ecc/bls12-381"
 	"github.com/consensys/gnark-crypto/ecc/bls12-381/fp"

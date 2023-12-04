@@ -23,12 +23,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/billyadelphia/op-geth"
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/common"
 	"github.com/billyadelphia/op-geth/consensus/ethash"
 	"github.com/billyadelphia/op-geth/core"
 	"github.com/billyadelphia/op-geth/core/types"
-	"github.com/billyadelphia/op-geth/crypto"
 	"github.com/billyadelphia/op-geth/eth"
 	"github.com/billyadelphia/op-geth/eth/ethconfig"
 	"github.com/billyadelphia/op-geth/eth/filters"
@@ -36,6 +35,7 @@ import (
 	"github.com/billyadelphia/op-geth/node"
 	"github.com/billyadelphia/op-geth/params"
 	"github.com/billyadelphia/op-geth/rpc"
+	"github.com/ethereum/go-ethereum"
 )
 
 var (

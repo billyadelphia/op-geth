@@ -25,7 +25,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/billyadelphia/op-geth/crypto"
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/internal/reexec"
 	"github.com/billyadelphia/op-geth/log"
 	"github.com/billyadelphia/op-geth/node"

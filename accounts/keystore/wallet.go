@@ -19,10 +19,10 @@ package keystore
 import (
 	"math/big"
 
-	"github.com/billyadelphia/op-geth"
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/accounts"
 	"github.com/billyadelphia/op-geth/core/types"
-	"github.com/billyadelphia/op-geth/crypto"
+	"github.com/ethereum/go-ethereum"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

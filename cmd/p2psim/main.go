@@ -44,7 +44,7 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/billyadelphia/op-geth/crypto"
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/internal/flags"
 	"github.com/billyadelphia/op-geth/p2p"
 	"github.com/billyadelphia/op-geth/p2p/enode"

@@ -290,7 +290,7 @@ var bindTests = []struct {
 			"github.com/billyadelphia/op-geth/accounts/abi/bind"
 			"github.com/billyadelphia/op-geth/accounts/abi/bind/backends"
 			"github.com/billyadelphia/op-geth/core"
-			"github.com/billyadelphia/op-geth/crypto"
+			"github.com/billyadelphia/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -345,7 +345,7 @@ var bindTests = []struct {
 			"github.com/billyadelphia/op-geth/accounts/abi/bind"
 			"github.com/billyadelphia/op-geth/accounts/abi/bind/backends"
 			"github.com/billyadelphia/op-geth/core"
-			"github.com/billyadelphia/op-geth/crypto"
+			"github.com/billyadelphia/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -391,7 +391,7 @@ var bindTests = []struct {
 			"github.com/billyadelphia/op-geth/accounts/abi/bind"
 			"github.com/billyadelphia/op-geth/accounts/abi/bind/backends"
 			"github.com/billyadelphia/op-geth/core"
-			"github.com/billyadelphia/op-geth/crypto"
+			"github.com/billyadelphia/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -449,7 +449,7 @@ var bindTests = []struct {
 			"github.com/billyadelphia/op-geth/accounts/abi/bind/backends"
 			"github.com/billyadelphia/op-geth/common"
 			"github.com/billyadelphia/op-geth/core"
-			"github.com/billyadelphia/op-geth/crypto"
+			"github.com/billyadelphia/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -497,7 +497,7 @@ var bindTests = []struct {
 			"github.com/billyadelphia/op-geth/accounts/abi/bind"
 			"github.com/billyadelphia/op-geth/accounts/abi/bind/backends"
 			"github.com/billyadelphia/op-geth/core"
-			"github.com/billyadelphia/op-geth/crypto"
+			"github.com/billyadelphia/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -563,7 +563,7 @@ var bindTests = []struct {
 			"github.com/billyadelphia/op-geth/accounts/abi/bind"
 			"github.com/billyadelphia/op-geth/accounts/abi/bind/backends"
 			"github.com/billyadelphia/op-geth/core"
-			"github.com/billyadelphia/op-geth/crypto"
+			"github.com/billyadelphia/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -695,7 +695,7 @@ var bindTests = []struct {
 			"github.com/billyadelphia/op-geth/accounts/abi/bind"
 			"github.com/billyadelphia/op-geth/accounts/abi/bind/backends"
 			"github.com/billyadelphia/op-geth/core"
-			"github.com/billyadelphia/op-geth/crypto"
+			"github.com/billyadelphia/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -745,7 +745,7 @@ var bindTests = []struct {
 			"github.com/billyadelphia/op-geth/accounts/abi/bind/backends"
 			"github.com/billyadelphia/op-geth/common"
 			"github.com/billyadelphia/op-geth/core"
-			"github.com/billyadelphia/op-geth/crypto"
+			"github.com/billyadelphia/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -820,7 +820,7 @@ var bindTests = []struct {
 			"github.com/billyadelphia/op-geth/accounts/abi/bind"
 			"github.com/billyadelphia/op-geth/accounts/abi/bind/backends"
 			"github.com/billyadelphia/op-geth/core"
-			"github.com/billyadelphia/op-geth/crypto"
+			"github.com/billyadelphia/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -914,7 +914,7 @@ var bindTests = []struct {
 			"github.com/billyadelphia/op-geth/accounts/abi/bind/backends"
 			"github.com/billyadelphia/op-geth/common"
 			"github.com/billyadelphia/op-geth/core"
-			"github.com/billyadelphia/op-geth/crypto"
+			"github.com/billyadelphia/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -1104,7 +1104,7 @@ var bindTests = []struct {
 			"github.com/billyadelphia/op-geth/accounts/abi/bind"
 			"github.com/billyadelphia/op-geth/accounts/abi/bind/backends"
 			"github.com/billyadelphia/op-geth/core"
-			"github.com/billyadelphia/op-geth/crypto"
+			"github.com/billyadelphia/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -1239,7 +1239,7 @@ var bindTests = []struct {
 			"github.com/billyadelphia/op-geth/accounts/abi/bind"
 			"github.com/billyadelphia/op-geth/accounts/abi/bind/backends"
 			"github.com/billyadelphia/op-geth/core"
-			"github.com/billyadelphia/op-geth/crypto"
+			"github.com/billyadelphia/go-ethereum/crypto"
 		`,
 
 		`
@@ -1381,7 +1381,7 @@ var bindTests = []struct {
 			"github.com/billyadelphia/op-geth/accounts/abi/bind"
 			"github.com/billyadelphia/op-geth/accounts/abi/bind/backends"
 			"github.com/billyadelphia/op-geth/core"
-			"github.com/billyadelphia/op-geth/crypto"
+			"github.com/billyadelphia/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -1447,7 +1447,7 @@ var bindTests = []struct {
 		"github.com/billyadelphia/op-geth/accounts/abi/bind"
 		"github.com/billyadelphia/op-geth/accounts/abi/bind/backends"
 		"github.com/billyadelphia/op-geth/core"
-		"github.com/billyadelphia/op-geth/crypto"
+		"github.com/billyadelphia/go-ethereum/crypto"
 		`,
 		`
 		// Initialize test accounts
@@ -1534,7 +1534,7 @@ var bindTests = []struct {
 
 		"github.com/billyadelphia/op-geth/accounts/abi/bind"
 		"github.com/billyadelphia/op-geth/accounts/abi/bind/backends"
-		"github.com/billyadelphia/op-geth/crypto"
+		"github.com/billyadelphia/go-ethereum/crypto"
 		"github.com/billyadelphia/op-geth/core"
 		`,
 		`
@@ -1597,7 +1597,7 @@ var bindTests = []struct {
 
 		"github.com/billyadelphia/op-geth/accounts/abi/bind"
 		"github.com/billyadelphia/op-geth/accounts/abi/bind/backends"
-		"github.com/billyadelphia/op-geth/crypto"
+		"github.com/billyadelphia/go-ethereum/crypto"
 		"github.com/billyadelphia/op-geth/core"
         `,
 		`
@@ -1660,7 +1660,7 @@ var bindTests = []struct {
 			"github.com/billyadelphia/op-geth/accounts/abi/bind"
 			"github.com/billyadelphia/op-geth/accounts/abi/bind/backends"
 			"github.com/billyadelphia/op-geth/core"
-			"github.com/billyadelphia/op-geth/crypto"
+			"github.com/billyadelphia/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -1721,7 +1721,7 @@ var bindTests = []struct {
 			"github.com/billyadelphia/op-geth/accounts/abi/bind"
 			"github.com/billyadelphia/op-geth/accounts/abi/bind/backends"
 			"github.com/billyadelphia/op-geth/core"
-			"github.com/billyadelphia/op-geth/crypto"
+			"github.com/billyadelphia/go-ethereum/crypto"
 	   `,
 		`
 			key, _ := crypto.GenerateKey()
@@ -1809,7 +1809,7 @@ var bindTests = []struct {
 			"github.com/billyadelphia/op-geth/accounts/abi/bind"
 			"github.com/billyadelphia/op-geth/accounts/abi/bind/backends"
 			"github.com/billyadelphia/op-geth/core"
-			"github.com/billyadelphia/op-geth/crypto"
+			"github.com/billyadelphia/go-ethereum/crypto"
 			"github.com/billyadelphia/op-geth/eth/ethconfig"
 	   `,
 		`
@@ -1879,7 +1879,7 @@ var bindTests = []struct {
 			"github.com/billyadelphia/op-geth/accounts/abi/bind"
 			"github.com/billyadelphia/op-geth/accounts/abi/bind/backends"
 			"github.com/billyadelphia/op-geth/core"
-			"github.com/billyadelphia/op-geth/crypto"
+			"github.com/billyadelphia/go-ethereum/crypto"
 			"github.com/billyadelphia/op-geth/eth/ethconfig"
 	   `,
 		`
@@ -1931,7 +1931,7 @@ var bindTests = []struct {
 			"github.com/billyadelphia/op-geth/accounts/abi/bind"
 			"github.com/billyadelphia/op-geth/accounts/abi/bind/backends"
 			"github.com/billyadelphia/op-geth/core"
-			"github.com/billyadelphia/op-geth/crypto"
+			"github.com/billyadelphia/go-ethereum/crypto"
 			"github.com/billyadelphia/op-geth/eth/ethconfig"
 		`,
 		tester: `
@@ -1979,7 +1979,7 @@ var bindTests = []struct {
 			"github.com/billyadelphia/op-geth/accounts/abi/bind"
 			"github.com/billyadelphia/op-geth/accounts/abi/bind/backends"
 			"github.com/billyadelphia/op-geth/core"
-			"github.com/billyadelphia/op-geth/crypto"
+			"github.com/billyadelphia/go-ethereum/crypto"
 			"github.com/billyadelphia/op-geth/eth/ethconfig"
 		`,
 		tester: `
@@ -2019,7 +2019,7 @@ var bindTests = []struct {
 			"github.com/billyadelphia/op-geth/accounts/abi/bind"
 			"github.com/billyadelphia/op-geth/accounts/abi/bind/backends"
 			"github.com/billyadelphia/op-geth/core"
-			"github.com/billyadelphia/op-geth/crypto"
+			"github.com/billyadelphia/go-ethereum/crypto"
 			"github.com/billyadelphia/op-geth/eth/ethconfig"
 		`,
 		tester: `

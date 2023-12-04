@@ -24,9 +24,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/common"
 	"github.com/billyadelphia/op-geth/core/types"
-	"github.com/billyadelphia/op-geth/crypto"
 	"github.com/billyadelphia/op-geth/eth/protocols/eth"
 	"github.com/billyadelphia/op-geth/internal/utesting"
 	"github.com/billyadelphia/op-geth/p2p"

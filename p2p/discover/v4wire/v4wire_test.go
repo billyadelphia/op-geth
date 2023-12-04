@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/billyadelphia/op-geth/crypto"
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/rlp"
 	"github.com/davecgh/go-spew/spew"
 )

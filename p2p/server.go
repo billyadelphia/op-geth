@@ -28,9 +28,9 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/common"
 	"github.com/billyadelphia/op-geth/common/mclock"
-	"github.com/billyadelphia/op-geth/crypto"
 	"github.com/billyadelphia/op-geth/event"
 	"github.com/billyadelphia/op-geth/log"
 	"github.com/billyadelphia/op-geth/p2p/discover"

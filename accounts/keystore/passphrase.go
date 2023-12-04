@@ -37,10 +37,10 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/accounts"
 	"github.com/billyadelphia/op-geth/common"
 	"github.com/billyadelphia/op-geth/common/math"
-	"github.com/billyadelphia/op-geth/crypto"
 	"github.com/google/uuid"
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/crypto/scrypt"

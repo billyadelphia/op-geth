@@ -24,9 +24,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/cmd/devp2p/internal/v4test"
 	"github.com/billyadelphia/op-geth/common"
-	"github.com/billyadelphia/op-geth/crypto"
 	"github.com/billyadelphia/op-geth/internal/flags"
 	"github.com/billyadelphia/op-geth/p2p/discover"
 	"github.com/billyadelphia/op-geth/p2p/enode"

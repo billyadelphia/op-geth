@@ -23,6 +23,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/common"
 	"github.com/billyadelphia/op-geth/consensus/clique"
 	"github.com/billyadelphia/op-geth/core"
@@ -32,7 +33,6 @@ import (
 	"github.com/billyadelphia/op-geth/core/txpool/legacypool"
 	"github.com/billyadelphia/op-geth/core/types"
 	"github.com/billyadelphia/op-geth/core/vm"
-	"github.com/billyadelphia/op-geth/crypto"
 	"github.com/billyadelphia/op-geth/eth/downloader"
 	"github.com/billyadelphia/op-geth/event"
 	"github.com/billyadelphia/op-geth/params"

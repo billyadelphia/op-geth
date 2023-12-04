@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/common"
 	"github.com/billyadelphia/op-geth/core/txpool"
 	"github.com/billyadelphia/op-geth/core/types"
-	"github.com/billyadelphia/op-geth/crypto"
 )
 
 func TestTransactionPriceNonceSortLegacy(t *testing.T) {

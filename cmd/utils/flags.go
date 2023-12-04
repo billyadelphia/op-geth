@@ -34,6 +34,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/billyadelphia/go-ethereum/crypto"
+	"github.com/billyadelphia/go-ethereum/crypto/kzg4844"
 	"github.com/billyadelphia/op-geth/accounts"
 	"github.com/billyadelphia/op-geth/accounts/keystore"
 	"github.com/billyadelphia/op-geth/common"
@@ -42,8 +44,6 @@ import (
 	"github.com/billyadelphia/op-geth/core/rawdb"
 	"github.com/billyadelphia/op-geth/core/txpool/legacypool"
 	"github.com/billyadelphia/op-geth/core/vm"
-	"github.com/billyadelphia/op-geth/crypto"
-	"github.com/billyadelphia/op-geth/crypto/kzg4844"
 	"github.com/billyadelphia/op-geth/eth"
 	"github.com/billyadelphia/op-geth/eth/catalyst"
 	"github.com/billyadelphia/op-geth/eth/downloader"

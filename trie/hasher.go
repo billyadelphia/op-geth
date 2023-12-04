@@ -19,7 +19,7 @@ package trie
 import (
 	"sync"
 
-	"github.com/billyadelphia/op-geth/crypto"
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/rlp"
 	"golang.org/x/crypto/sha3"
 )

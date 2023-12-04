@@ -21,9 +21,9 @@ import (
 	"time"
 
 	"github.com/VictoriaMetrics/fastcache"
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/common"
 	"github.com/billyadelphia/op-geth/core/rawdb"
-	"github.com/billyadelphia/op-geth/crypto"
 	"github.com/billyadelphia/op-geth/ethdb"
 	"github.com/billyadelphia/op-geth/log"
 	"github.com/billyadelphia/op-geth/trie/trienode"

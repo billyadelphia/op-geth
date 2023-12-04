@@ -23,13 +23,13 @@ import (
 	"fmt"
 	"math/big"
 
+	"github.com/billyadelphia/go-ethereum/crypto"
+	"github.com/billyadelphia/go-ethereum/crypto/blake2b"
+	"github.com/billyadelphia/go-ethereum/crypto/bls12381"
+	"github.com/billyadelphia/go-ethereum/crypto/bn256"
+	"github.com/billyadelphia/go-ethereum/crypto/kzg4844"
 	"github.com/billyadelphia/op-geth/common"
 	"github.com/billyadelphia/op-geth/common/math"
-	"github.com/billyadelphia/op-geth/crypto"
-	"github.com/billyadelphia/op-geth/crypto/blake2b"
-	"github.com/billyadelphia/op-geth/crypto/bls12381"
-	"github.com/billyadelphia/op-geth/crypto/bn256"
-	"github.com/billyadelphia/op-geth/crypto/kzg4844"
 	"github.com/billyadelphia/op-geth/params"
 	"golang.org/x/crypto/ripemd160"
 )

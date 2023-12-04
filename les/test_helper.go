@@ -28,6 +28,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/accounts/abi/bind/backends"
 	"github.com/billyadelphia/op-geth/common"
 	"github.com/billyadelphia/op-geth/common/mclock"
@@ -39,7 +40,6 @@ import (
 	"github.com/billyadelphia/op-geth/core/txpool"
 	"github.com/billyadelphia/op-geth/core/txpool/legacypool"
 	"github.com/billyadelphia/op-geth/core/types"
-	"github.com/billyadelphia/op-geth/crypto"
 	"github.com/billyadelphia/op-geth/eth/ethconfig"
 	"github.com/billyadelphia/op-geth/ethdb"
 	"github.com/billyadelphia/op-geth/event"

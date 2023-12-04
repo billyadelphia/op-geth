@@ -23,11 +23,11 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/common"
 	"github.com/billyadelphia/op-geth/core/rawdb"
 	"github.com/billyadelphia/op-geth/core/state"
 	"github.com/billyadelphia/op-geth/core/types"
-	"github.com/billyadelphia/op-geth/crypto"
 	"github.com/billyadelphia/op-geth/trie"
 	"github.com/davecgh/go-spew/spew"
 	"golang.org/x/exp/slices"

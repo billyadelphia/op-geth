@@ -23,12 +23,12 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/common"
 	"github.com/billyadelphia/op-geth/core"
 	"github.com/billyadelphia/op-geth/core/rawdb"
 	"github.com/billyadelphia/op-geth/core/types"
 	"github.com/billyadelphia/op-geth/core/vm"
-	"github.com/billyadelphia/op-geth/crypto"
 	"github.com/billyadelphia/op-geth/params"
 	"golang.org/x/exp/slices"
 )

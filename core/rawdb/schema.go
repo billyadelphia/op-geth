@@ -21,8 +21,8 @@ import (
 	"bytes"
 	"encoding/binary"
 
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/common"
-	"github.com/billyadelphia/op-geth/crypto"
 	"github.com/billyadelphia/op-geth/metrics"
 )
 

@@ -24,10 +24,10 @@ import (
 
 	"github.com/dop251/goja"
 
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/common"
 	"github.com/billyadelphia/op-geth/common/hexutil"
 	"github.com/billyadelphia/op-geth/core/vm"
-	"github.com/billyadelphia/op-geth/crypto"
 	"github.com/billyadelphia/op-geth/eth/tracers"
 	jsassets "github.com/billyadelphia/op-geth/eth/tracers/js/internal/tracers"
 )

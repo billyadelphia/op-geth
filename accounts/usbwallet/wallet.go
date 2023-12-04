@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/billyadelphia/op-geth"
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/accounts"
 	"github.com/billyadelphia/op-geth/common"
 	"github.com/billyadelphia/op-geth/core/types"
-	"github.com/billyadelphia/op-geth/crypto"
 	"github.com/billyadelphia/op-geth/log"
+	"github.com/ethereum/go-ethereum"
 	"github.com/karalabe/usb"
 )
 

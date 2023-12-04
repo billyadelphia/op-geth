@@ -23,9 +23,9 @@ import (
 	"io"
 	"math/big"
 
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/common"
 	"github.com/billyadelphia/op-geth/core/types"
-	"github.com/billyadelphia/op-geth/crypto"
 	vfc "github.com/billyadelphia/op-geth/les/vflux/client"
 	"github.com/billyadelphia/op-geth/p2p/enode"
 	"github.com/billyadelphia/op-geth/rlp"

@@ -26,9 +26,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/common"
 	"github.com/billyadelphia/op-geth/common/math"
-	"github.com/billyadelphia/op-geth/crypto"
 )
 
 const jsondata = `

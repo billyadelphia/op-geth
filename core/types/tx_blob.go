@@ -21,8 +21,8 @@ import (
 	"crypto/sha256"
 	"math/big"
 
+	"github.com/billyadelphia/go-ethereum/crypto/kzg4844"
 	"github.com/billyadelphia/op-geth/common"
-	"github.com/billyadelphia/op-geth/crypto/kzg4844"
 	"github.com/billyadelphia/op-geth/params"
 	"github.com/billyadelphia/op-geth/rlp"
 	"github.com/holiman/uint256"

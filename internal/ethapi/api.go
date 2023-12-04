@@ -26,9 +26,10 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
+	"github.com/ethereum/go-ethereum"
 	"github.com/tyler-smith/go-bip39"
 
-	"github.com/billyadelphia/op-geth"
+	"github.com/billyadelphia/go-ethereum/crypto"
 	"github.com/billyadelphia/op-geth/accounts"
 	"github.com/billyadelphia/op-geth/accounts/abi"
 	"github.com/billyadelphia/op-geth/accounts/keystore"
@@ -42,7 +43,6 @@ import (
 	"github.com/billyadelphia/op-geth/core/state"
 	"github.com/billyadelphia/op-geth/core/types"
 	"github.com/billyadelphia/op-geth/core/vm"
-	"github.com/billyadelphia/op-geth/crypto"
 	"github.com/billyadelphia/op-geth/eth/tracers/logger"
 	"github.com/billyadelphia/op-geth/log"
 	"github.com/billyadelphia/op-geth/p2p"

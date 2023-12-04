@@ -52,8 +52,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/billyadelphia/go-ethereum/crypto/signify"
 	"github.com/billyadelphia/op-geth/common"
-	"github.com/billyadelphia/op-geth/crypto/signify"
 	"github.com/billyadelphia/op-geth/internal/build"
 	"github.com/billyadelphia/op-geth/params"
 	"github.com/cespare/cp"

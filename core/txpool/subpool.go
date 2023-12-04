@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
+	"github.com/billyadelphia/op-geth/common"
+	"github.com/billyadelphia/op-geth/core"
+	"github.com/billyadelphia/op-geth/core/types"
+	"github.com/billyadelphia/op-geth/event"
 )
 
 // LazyTransaction contains a small subset of the transaction properties that is

@@ -24,11 +24,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/billyadelphia/op-geth/common"
+	"github.com/billyadelphia/op-geth/common/math"
+	"github.com/billyadelphia/op-geth/crypto"
+	"github.com/billyadelphia/op-geth/log"
+	"github.com/billyadelphia/op-geth/rlp"
 )
 
 var (

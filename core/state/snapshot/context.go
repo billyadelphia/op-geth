@@ -22,12 +22,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/billyadelphia/op-geth/common"
+	"github.com/billyadelphia/op-geth/common/math"
+	"github.com/billyadelphia/op-geth/core/rawdb"
+	"github.com/billyadelphia/op-geth/ethdb"
+	"github.com/billyadelphia/op-geth/ethdb/memorydb"
+	"github.com/billyadelphia/op-geth/log"
 )
 
 const (

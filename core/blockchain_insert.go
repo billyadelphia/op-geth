@@ -19,10 +19,10 @@ package core
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/billyadelphia/op-geth/common"
+	"github.com/billyadelphia/op-geth/common/mclock"
+	"github.com/billyadelphia/op-geth/core/types"
+	"github.com/billyadelphia/op-geth/log"
 )
 
 // insertStats tracks and reports on block insertion.

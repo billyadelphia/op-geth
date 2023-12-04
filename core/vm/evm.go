@@ -22,10 +22,10 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/billyadelphia/op-geth/common"
+	"github.com/billyadelphia/op-geth/core/types"
+	"github.com/billyadelphia/op-geth/crypto"
+	"github.com/billyadelphia/op-geth/params"
 )
 
 type (

@@ -25,11 +25,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/p2p/dnsdisc"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/billyadelphia/op-geth/accounts/keystore"
+	"github.com/billyadelphia/op-geth/common"
+	"github.com/billyadelphia/op-geth/console/prompt"
+	"github.com/billyadelphia/op-geth/p2p/dnsdisc"
+	"github.com/billyadelphia/op-geth/p2p/enode"
 	"github.com/urfave/cli/v2"
 )
 

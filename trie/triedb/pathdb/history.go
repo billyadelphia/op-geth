@@ -23,11 +23,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/trie/triestate"
+	"github.com/billyadelphia/op-geth/common"
+	"github.com/billyadelphia/op-geth/core/rawdb"
+	"github.com/billyadelphia/op-geth/ethdb"
+	"github.com/billyadelphia/op-geth/log"
+	"github.com/billyadelphia/op-geth/trie/triestate"
 	"golang.org/x/exp/slices"
 )
 

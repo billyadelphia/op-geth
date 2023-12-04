@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/billyadelphia/op-geth"
+	"github.com/billyadelphia/op-geth/common"
+	"github.com/billyadelphia/op-geth/common/hexutil"
+	"github.com/billyadelphia/op-geth/core/types"
+	"github.com/billyadelphia/op-geth/internal/ethapi"
+	"github.com/billyadelphia/op-geth/rpc"
 )
 
 var (

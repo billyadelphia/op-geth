@@ -1,4 +1,4 @@
-module github.com/ethereum/go-ethereum
+module github.com/billyadelphia/op-geth
 
 go 1.20
 

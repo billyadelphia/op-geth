@@ -25,11 +25,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/billyadelphia/op-geth/core"
+	"github.com/billyadelphia/op-geth/core/forkid"
+	"github.com/billyadelphia/op-geth/p2p/enr"
+	"github.com/billyadelphia/op-geth/params"
+	"github.com/billyadelphia/op-geth/rlp"
 	"github.com/urfave/cli/v2"
 )
 

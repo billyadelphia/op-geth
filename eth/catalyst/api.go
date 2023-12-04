@@ -24,17 +24,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/beacon/engine"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/billyadelphia/op-geth/beacon/engine"
+	"github.com/billyadelphia/op-geth/common"
+	"github.com/billyadelphia/op-geth/common/hexutil"
+	"github.com/billyadelphia/op-geth/core/rawdb"
+	"github.com/billyadelphia/op-geth/core/types"
+	"github.com/billyadelphia/op-geth/eth"
+	"github.com/billyadelphia/op-geth/eth/downloader"
+	"github.com/billyadelphia/op-geth/log"
+	"github.com/billyadelphia/op-geth/miner"
+	"github.com/billyadelphia/op-geth/node"
+	"github.com/billyadelphia/op-geth/rpc"
 )
 
 // Register adds the engine API to the full node.
